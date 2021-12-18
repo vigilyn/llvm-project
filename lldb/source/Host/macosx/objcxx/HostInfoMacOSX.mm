@@ -42,8 +42,13 @@
 #ifndef CPU_SUBTYPE_X86_64_H
 #define CPU_SUBTYPE_X86_64_H ((cpu_subtype_t)8)
 #endif
+
 #ifndef CPU_TYPE_ARM64
 #define CPU_TYPE_ARM64 (CPU_TYPE_ARM | CPU_ARCH_ABI64)
+#endif
+
+#ifndef CPU_SUBTYPE_ARM64E
+#define CPU_SUBTYPE_ARM64E ((cpu_subtype_t) 2)
 #endif
 
 #ifndef CPU_TYPE_ARM64_32
